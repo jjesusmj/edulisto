@@ -1,0 +1,6 @@
+Si Error:
+    ModuleNotFoundError: No module named 'pkg_resources'
+Then:  pip install setuptools
+
+Instalar Pypdf:
+pip install pypdf
