@@ -2,7 +2,7 @@ import streamlit as st
 import os, config
 from llama_index import StorageContext, load_index_from_storage
 
-os.environ['OPENAI_API_KEY'] = config.OPENAI_API_KEY
+#os.environ['OPENAI_API_KEY'] = config.OPENAI_API_KEY
 
 def print_markdown_from_file(file_path):
     with open(file_path, "r") as f:
